@@ -18,7 +18,7 @@ import {
 
 export function HomePage() {
   const handleGetStarted = () => {
-    window.open('https://calendly.com/zclarity/alignment?month=2025-06', '_blank');
+    window.open('https://calendly.com/zclarity/intro', '_blank');
   };
 
   const handleLearnMore = () => {
@@ -29,11 +29,11 @@ export function HomePage() {
   };
 
   const handleAboutLearnMore = () => {
-    window.open('https://calendly.com/zclarity/alignment?month=2025-06', '_blank');
+    window.open('https://calendly.com/zclarity/intro', '_blank');
   };
 
   const handleJoinCommunity = () => {
-    window.open('https://calendly.com/zclarity/alignment?month=2025-06', '_blank');
+    window.open('https://calendly.com/zclarity/intro', '_blank');
   };
 
   return (
@@ -145,7 +145,7 @@ export function HomePage() {
             <div className="relative max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl transform rotate-6 scale-90"></div>
               <img 
-                src="/images/5A93BCDE-329E-4EAD-B8C2-E1A338623C86.PNG" 
+                src="images/5A93BCDE-329E-4EAD-B8C2-E1A338623C86.PNG" 
                 alt="Professional coach in a modern office setting" 
                 className="relative rounded-2xl shadow-2xl w-full h-auto transform -rotate-2 hover:rotate-0 transition-transform duration-500 scale-90"
               />
