@@ -8,7 +8,7 @@ interface NavigationProps {
 export function Navigation({ currentPage, onPageChange }: NavigationProps) {
 
   const handleGetStarted = () => {
-    window.open('https://calendly.com/zclarity/alignment?month=2025-06', '_blank');
+    window.open('https://calendly.com/zclarity/intro', '_blank');
   };
 
   const handleHomeClick = () => {
