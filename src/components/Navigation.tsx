@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from "@/components/ui/button";
 
 interface NavigationProps {
@@ -7,9 +6,6 @@ interface NavigationProps {
 }
 
 export function Navigation({ currentPage, onPageChange }: NavigationProps) {
-  const navItems = [
-    { id: 'blog', label: 'Newsletter' }
-  ];
 
   const handleGetStarted = () => {
     window.open('https://calendly.com/zclarity/alignment?month=2025-06', '_blank');

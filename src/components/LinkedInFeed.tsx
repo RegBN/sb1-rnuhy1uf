@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -173,7 +173,7 @@ Most people try to change habits with more discipline. But if your body is stuck
           {/* Posts Grid */}
           {!isLoading && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {posts.map((post, index) => (
+              {posts.map((post) => (
                 <Card 
                   key={post.id} 
                   className="p-6 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-white border-0 group"
