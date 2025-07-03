@@ -85,7 +85,7 @@ export function Navigation({ currentPage, onPageChange }: NavigationProps) {
           onClick={handleHomeClick}
         >
           <img 
-            src="/assets/9acd87a6-d4aa-42e6-9a89-8b9b54746d61-removebg-preview.png" 
+            src="/images/9acd87a6-d4aa-42e6-9a89-8b9b54746d61-removebg-preview.png" 
             alt="Z Clarity Solutions Logo" 
             className="w-8 h-8 object-contain"
           />
